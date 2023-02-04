@@ -1,0 +1,93 @@
+* {
+  font-family: cursive "Red rose";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./pexels-maxyne-barcel-10402282\ 1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 194, 51);
+}
+nav {
+  margin: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button1 {
+  outline: none;
+  font-weight: 550;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(255, 81, 95);
+  height: 30px;
+  width: 80px;
+  font-family: "Red Rose";
+  padding: 5px 10px;
+}
+.button2 {
+  margin-top: 25px;
+  padding: 14px 35px;
+  border-radius: 2%;
+  background-color: rgb(255, 81, 95);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-family: "Red Rose";
+  font-family: 900;
+}
+
+.button1:hover {
+  color: rgb(255, 81, 95);
+  background-color: #ffffffd1;
+}
+
+.list {
+  display: flex;
+  gap: 50px;
+  font-size: 15px;
+  align-items: center;
+  font-family: "Red Rose";
+  font-weight: 400;
+  line-height: 20px;
+}
+/* Main section */
+main {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Dela gothic one";
+  color: rgb(255, 194, 51);
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: 50px;
+  line-height: 80px;
+}
+footer img {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
