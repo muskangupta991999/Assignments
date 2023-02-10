@@ -1,0 +1,58 @@
+div {
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 250px;
+  border: 3px dashed #000000;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+@media (max-width: 425px) {
+  /* Phones */
+  body {
+    background-color: #ca3142;
+  }
+  div::after {
+    content: "This is Media query demo page and This is mobile compatible ";
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  /*Portrait Tablets & big phones. 425px to 768px*/
+  body {
+    background-color: #75fbfd;
+  }
+  div::after {
+    content: "This is Media query demo page  and This is for Portarait Tablets & big phones ";
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*768px to 1024px  */
+  /*Tablets*/
+  body {
+    background-color: #947227;
+  }
+  div::after {
+    content: "This is Media query demo page  and This is for Tablets and small inches laptops";
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  /* Laptos */
+  /* 992px to 1440px */
+  body {
+    background-color: #208b21;
+  }
+  div::after {
+    content: "This is Media query demo page  and This is for Laptops ";
+  }
+}
+@media (min-width: 1440px) {
+  /*larger screens*/
+  /* 1440px and beyond */
+  body {
+    background-color: #7fffd5;
+  }
+  div::after {
+    content: "This is Media query demo page  and This is for Larger screens ";
+  }
+}
