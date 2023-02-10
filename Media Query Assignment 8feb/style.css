@@ -37,8 +37,8 @@ div {
   }
 }
 @media (min-width: 1024px) and (max-width: 1440px) {
-  /* Laptos */
-  /* 992px to 1440px */
+  /* Laptops */
+  /* 1024px to 1440px */
   body {
     background-color: #208b21;
   }
