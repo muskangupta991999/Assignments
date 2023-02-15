@@ -113,7 +113,7 @@ form button {
 .formbtn:hover {
   box-shadow: 0 0 15px #ffb87a;
 }
-@media screen and (max-width: 1115px) {
+@media screen and (max-width: 1200px) {
   nav {
     height: 10vh;
     padding: 0 20px;
@@ -139,7 +139,8 @@ form button {
     padding: 0 5px;
   }
 
-  nav ul {
+  nav ul li {
+   margin-right: 10px;
     gap: 10px;
   }
 
