@@ -124,6 +124,9 @@ main {
     justify-content: center;
     gap: 20px;
   }
+  .stethoscope {
+    top: 150px;
+  }
 
   a {
     margin-right: 0px;
@@ -144,7 +147,9 @@ main {
     font-weight: 500;
     font-size: 9px;
   }
-
+.stethoscope {
+    top: 150px;
+  }
   nav img {
     width: 50px;
   }
