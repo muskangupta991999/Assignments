@@ -214,7 +214,8 @@ main section {
     padding: 0 5px;
   }
   nav ul li {
-    gap: 13px;
+    gap: 10px;
+     margin-right: 10px;
   }
   a {
     font-weight: 500;
