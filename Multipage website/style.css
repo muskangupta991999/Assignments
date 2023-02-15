@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* navbar  */
+nav {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+/*  logo */
+nav img {
+  width: 150px;
+}
+
+/* navbar  */
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+nav ul li:first-child {
+  font-weight: 700;
+  color: #20bc7e;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-shadow: 0 0 15px #000;
+}
+
+/*  main section */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+main section {
+  width: 50%;
+}
+
+.leftSection {
+  margin-left: 5%;
+  position: relative;
+}
+
+.topAngle {
+  width: 25px;
+}
+
+.leftSection h1 {
+  font-size: 70px;
+}
+
+.leftSection p {
+  color: #7c7c7c;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.bottomAngle {
+  width: 25px;
+  position: absolute;
+  right: 25px;
+}
+
+.stethoscope {
+  position: absolute;
+  width: 90%;
+  top: -60px;
+  right: -25%;
+  z-index: -1;
+}
+
+.mouse {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 30px;
+}
+
+.leftSection button {
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 40px;
+  background-color: #20bc7e;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* right section */
+.greenBox,
+.yellowBox {
+  position: absolute;
+  right: 0;
+}
+
+.greenBox {
+  width: 35%;
+  bottom: 30px;
+}
+
+.yellowBox {
+  width: 30%;
+  bottom: 50px;
+}
+
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px #ffb87a;
+}
+/* Media queries */
+@media screen and (max-width: 1200px) {
+  nav {
+    height: 10vh;
+    padding: 0 20px;
+  }
+
+  nav img {
+    width: 80px;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  a {
+    margin-right: 0px;
+    font-weight: 500;
+  }
+
+  .leftSection h1 {
+    font-size: 50px;
+  }
+  .leftSection p {
+    font-size: 14px;
+    margin: 20px 0;
+    color: #5c5c5c;
+  }
+  .greenBox {
+    width: 35%;
+    top: 80px;
+  }
+
+  .yellowBox {
+    width: 30%;
+    top: 100px;
+  }
+  .doctor {
+    height: 50%;
+    top: 70px;
+  }
+  .leftSection {
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    z-index: 10;
+  }
+  .btn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 45vw;
+    margin-top: 140px;
+    position: absolute;
+    top: 50vh;
+  }
+  .bottomAngle {
+    width: 25px;
+    position: absolute;
+    right: 30px;
+    top: 36vh;
+  }
+  .mouse {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 0 5px;
+  }
+  nav ul li {
+    gap: 13px;
+  }
+  a {
+    font-weight: 500;
+    font-size: 10px;
+  }
+
+  nav img {
+    width: 50px;
+  }
+  .leftSection h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .doctor {
+    position: absolute;
+    margin-top: 140px;
+    margin-right: 0px;
+  }
+  .btn {
+    margin-top: 180px;
+    width: 80vw;
+  }
+  .bottomAngle {
+    width: 25px;
+    position: absolute;
+    right: 20px;
+    top: 40vh;
+  }
+}

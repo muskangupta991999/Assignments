@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* navbar menu */
+nav {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+/* logo */
+nav img {
+  width: 150px;
+}
+
+/* desiging the navigation menu links */
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+nav ul li:first-child {
+  font-weight: 700;
+  color: #20bc7e;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-shadow: 0 0 10px #000000;
+}
+
+/* main section */
+main {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* contact form -->  */
+
+form {
+  width: 350px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form h1 {
+  text-align: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form div label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+form div input {
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+form div textarea {
+  resize: none;
+  height: 100px;
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+form button {
+  border: transparent;
+  border-radius: 10px;
+  background: #20bc7e;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+.formbtn:hover {
+  box-shadow: 0 0 15px #ffb87a;
+}
+@media screen and (max-width: 1115px) {
+  nav {
+    height: 10vh;
+    padding: 0 20px;
+  }
+
+  nav img {
+    width: 80px;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  a {
+    margin-right: 0px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 0 5px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  a {
+    font-weight: 500;
+    font-size: 9px;
+  }
+
+  nav img {
+    width: 50px;
+  }
+}
