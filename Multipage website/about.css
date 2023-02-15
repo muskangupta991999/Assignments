@@ -141,6 +141,7 @@ main {
 
   nav ul li {
     gap: 13px;
+     margin-right:20px;
   }
 
   a {
